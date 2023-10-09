@@ -2,36 +2,93 @@
 header {
     background-image: url(src/images/chinche-apestosa.jpeg); /* Reemplaza 'tu-imagen.jpg' con la URL de tu imagen */
     background-size: cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    text-align: center;
-    background-position: center center;
-  }
-  
-  .feature-section {
-    padding: 80px 0;
-  }
-  .feature-section-contacto{
-    height: 100vh;
-  }
-  .div-contacto{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-  }
-  
-  /* Estilo para las imágenes adicionales */
-  .additional-images img {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-position: center center;
+  font-family: 'EB Garamond', serif; /* Fuente EB Garamond para el encabezado */
+  position: relative;
+}
+
+/* Estilo para el cuerpo del texto y otros elementos */
+body, p, h1, h2, h3, ul, li {
+  font-family: 'EB Garamond', serif; /* Fuente EB Garamond para el texto */
+}
+
+/* Estilo para el menú de navegación con Fira Sans */
+.navbar {
+  font-family: 'Fira Sans', sans-serif; /* Fuente Fira Sans para el menú */
+}
+.navbar, .navbar-nav, .navbar-brand, .nav-link {
+  font-family: 'Fira Sans', sans-serif; /* Fuente Fira Sans para el menú */
+}
+
+.feature-section {
+  padding: 80px 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+/* Estilo para las imágenes adicionales */
+.additional-images img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.text-overlay h1,
+.text-overlay h2 {
+  margin-bottom: 20px;
+}
+
+/* Estilo para el nuevo diseño de la Descripción del Producto */
+.description-section {
+  background-color:rgba(97, 122, 105, 0.614); /* Cambia el color de fondo según tu preferencia */
+  padding: 80px 0;
+}
+
+.description-section .section-title {
+  color: #ffffff; /* Color del título */
+}
+
+.description-section .section-subtitle {
+  color: #d3d3d3; /* Color del subtítulo */
+}
+
+/* Estilo para el nuevo módulo de Galería de Fotos */
+.photo-gallery-section {
+  background-color: #3d5545;
+  padding: 80px 0;
+}
+
+.photo-gallery-section .section-title {
+  color: #ffffff; /* Color del título */
+}
+
+.photo-gallery-section img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+
+.container-compra{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

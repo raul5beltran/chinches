@@ -3,15 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Eliminador de Chinches</title>
+  <title>Eliminador de Chinches - Producto Eficaz para un Hogar Libre de Plagas</title>
+  <meta name="description" content="Elimina chinches de forma eficaz con nuestro poderoso eliminador. Desarrollado con tecnología avanzada para un hogar libre de plagas.">
+  <meta name="keywords" content="eliminador de chinches, exterminador, productos antichinches">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
 <!-- Menú de Navegación -->
+<!-- Menú de Navegación con Logo -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <a class="navbar-brand" href="#inicio">Inicio</a>
+  <a class="navbar-brand" href="#inicio">
+    <img src="src/images/chinche-apestosa.jpeg" alt="Logo" width="30" height="30" class="d-inline-block align-top">
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -24,74 +32,78 @@
         <a class="nav-link" href="#fotos">Fotos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#comprar">Comprar</a>
+        <a class="nav-link" href="#compra">Comprar</a>
       </li>
     </ul>
   </div>
 </nav>
 
-<!-- Sección de Cabecera con Imagen de Fondo -->
-<header id="inicio">
-  <h1 class="display-4">Eliminador de Chinches</h1>
-  <p class="lead">Despídete de los chinches con nuestro producto eficaz.</p>
+
+
+<!-- Sección de Cabecera con Imagen de Fondo y Texto -->
+<header id="inicio" class="position-relative">
+  <div class="text-overlay">
+    <h1 class="display-4">Eliminador de Chinches</h1>
+    <h2>Despídete de los chinches con nuestro producto eficaz.</h2>
+  </div>
+  <img src="tu-imagen.jpg" alt="Fondo de Cabecera" class="img-fluid">
 </header>
 
+
 <!-- Sección de Descripción del Producto -->
-<section class="feature-section" id="descripcion">
+<section class="feature-section description-section" id="descripcion">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <h2>Descripción del Producto</h2>
-        <p>Nuestro eliminador de chinches es una solución avanzada que garantiza un hogar libre de estos molestos insectos. Desarrollado con tecnología de vanguardia, nuestro producto es seguro, efectivo y fácil de usar.</p>
-        <p>Características destacadas:</p>
+        <h2 class="section-title">Descubre nuestro Eliminador de Chinches</h2>
+        <p class="section-subtitle">Una solución avanzada para un hogar libre de chinches.</p>
+        <p>Nuestro eliminador de chinches ha sido diseñado para proporcionar una solución efectiva y segura contra estos molestos insectos. Con características innovadoras y una fórmula de vanguardia, te aseguramos un hogar sin plagas.</p>
         <ul>
           <li>Elimina chinches de manera rápida y eficiente.</li>
           <li>Fórmula segura para uso en interiores.</li>
-          <li>Aplicación sencilla con resultados duraderos.</li>
+          <li>Resultados duraderos con una sola aplicación.</li>
         </ul>
       </div>
       <div class="col-lg-6">
-        <!-- Agrega una imagen del producto aquí -->
         <img src="src/images/chinche-apestosa.jpeg" alt="Producto Eliminador de Chinches" class="img-fluid">
       </div>
     </div>
   </div>
 </section>
 
-<!-- Sección de Fotos Adicionales -->
-<section class="feature-section additional-images" id="fotos">
+<!-- Sección de Galería de Fotos con Nuevo Módulo -->
+<section class="feature-section photo-gallery-section" id="fotos">
   <div class="container">
-    <h2>Fotos Adicionales</h2>
+    <h2 class="section-title">Explora Nuestro Producto en Imágenes</h2>
     <div class="row">
       <div class="col-lg-4">
-        <img src="src/images/chinche-apestosa.jpeg" alt="Foto 1" class="img-fluid">
+        <img src="src/images/chinche-apestosa.jpeg" alt="Foto 1 - Producto Eliminador de Chinches" class="img-fluid">
       </div>
       <div class="col-lg-4">
-        <img src="src/images/chinche-apestosa.jpeg" alt="Foto 2" class="img-fluid">
+        <img src="src/images/chinche-apestosa.jpeg" alt="Foto 2 - Producto Eliminador de Chinches" class="img-fluid">
       </div>
       <div class="col-lg-4">
-        <img src="src/images/chinche-apestosa.jpeg" alt="Foto 3" class="img-fluid">
+        <img src="src/images/chinche-apestosa.jpeg" alt="Foto 3 - Producto Eliminador de Chinches" class="img-fluid">
       </div>
     </div>
   </div>
 </section>
 
-<!-- Sección de Contacto -->
-<section class="feature-section-contacto" id="comprar">
-  <div class="container">
-    <h2>Contacto</h2>
-   <div class="div-contacto">
+<!-- Sección de Compra -->
+<section class="feature-section" id="compra">
+  <div class="container-compra">
+    <h2>Compra el producto</h2>
+    
     <script async
-    src="https://js.stripe.com/v3/buy-button.js">
+      src="https://js.stripe.com/v3/buy-button.js">
     </script>
 
     <stripe-buy-button
-    buy-button-id="buy_btn_1NzJ0PFUmjP00nJnrEVnzqqo"
-    publishable-key="pk_live_51MW4hMFUmjP00nJnNTRv3fH6TF3fMGXTdnB0ZB46SSrlj7L0d2SRGq9LkUx1j8QkNH4GOAAP18O3cUPBhX58ullj00RAW1tvAn"
+      buy-button-id="buy_btn_1NzJ0PFUmjP00nJnrEVnzqqo"
+      publishable-key="pk_live_51MW4hMFUmjP00nJnNTRv3fH6TF3fMGXTdnB0ZB46SSrlj7L0d2SRGq9LkUx1j8QkNH4GOAAP18O3cUPBhX58ullj00RAW1tvAn"
     >
     </stripe-buy-button>
-   </div>
-    
+
   </div>
 </section>
 
