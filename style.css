@@ -1,0 +1,37 @@
+/* Estilo para la imagen de fondo a pantalla completa */
+header {
+    background-image: url(src/images/chinche-apestosa.jpeg); /* Reemplaza 'tu-imagen.jpg' con la URL de tu imagen */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    background-position: center center;
+  }
+  
+  .feature-section {
+    padding: 80px 0;
+  }
+  .feature-section-contacto{
+    height: 100vh;
+  }
+  .div-contacto{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  /* Estilo para las imágenes adicionales */
+  .additional-images img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
